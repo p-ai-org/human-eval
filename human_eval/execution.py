@@ -43,8 +43,8 @@ def check_correctness(problem: Dict, completion: str, timeout: float,
 
             try:
                 exec_globals = {}
-                with swallow_io():
-                    with time_limit(timeout):
+                # with swallow_io():
+                #     with time_limit(timeout):
 # WARNING
 # This program exists to execute untrusted model-generated code. Although
 # it is highly unlikely that model-generated code will do something overtly
